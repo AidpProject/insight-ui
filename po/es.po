@@ -154,11 +154,11 @@ msgstr "No se pudo conectar a Internet. Por favor, verifique su conexión."
 
 #: public/views/includes/connection.html
 msgid ""
-"Can't connect to ravend to get live updates from the p2p network. (Tried "
-"connecting to ravend at"
+"Can't connect to aidpd to get live updates from the p2p network. (Tried "
+"connecting to aidpd at"
 msgstr ""
-"No se pudo conectar a ravend para obtener actualizaciones en vivo de la red "
-"p2p. (Se intentó conectar a ravend de {{host}}:{{port}}"
+"No se pudo conectar a aidpd para obtener actualizaciones en vivo de la red "
+"p2p. (Se intentó conectar a aidpd de {{host}}:{{port}}"
 
 #: public/views/rich_list.html
 msgid "Coins"
@@ -193,8 +193,8 @@ msgid "Connections to other nodes"
 msgstr "Conexiones a otros nodos"
 
 #: public/views/status.html
-msgid "Current Blockchain Tip (ravencore)"
-msgstr "Sugerencia actual de Blockchain(ravencore)"
+msgid "Current Blockchain Tip (aidpcore)"
+msgstr "Sugerencia actual de Blockchain(aidpcore)"
 
 #: public/views/statistics.html
 msgid "Current Network Hashrate"
@@ -314,8 +314,8 @@ msgid "Last Block"
 msgstr "Último Bloque"
 
 #: public/views/status.html
-msgid "Last Block Hash (ravend)"
-msgstr "Último Bloque Hash (ravend)"
+msgid "Last Block Hash (aidpd)"
+msgstr "Último Bloque Hash (aidpd)"
 
 #: public/views/block_list.html
 msgid "Lastest block from date"
@@ -491,40 +491,40 @@ msgid "Rank"
 msgstr "Ordenar"
 
 #: public/views/charts.html
-msgid "Ravencoin Circulation"
-msgstr "Circulación de Ravencoin"
+msgid "Aidpcoin Circulation"
+msgstr "Circulación de Aidpcoin"
 
 #: public/views/messages_verify.html
-msgid "Ravencoin comes with a way of signing arbitrary messages."
-msgstr "Ravencoin viene con una manera de firmar mensajes arbitrarios."
+msgid "Aidpcoin comes with a way of signing arbitrary messages."
+msgstr "Aidpcoin viene con una manera de firmar mensajes arbitrarios."
 
 #: public/views/index.html
-msgid "Ravencoin Community"
-msgstr "Comunidad Ravencoin"
+msgid "Aidpcoin Community"
+msgstr "Comunidad Aidpcoin"
 
 #: public/views/rich_list.html
-msgid "Ravencoin Distribution"
-msgstr "Distribución de Ravencoin"
+msgid "Aidpcoin Distribution"
+msgstr "Distribución de Aidpcoin"
 
 #: public/views/statistics.html
-msgid "Ravencoin Mined:"
-msgstr "Ravencoin Minado:"
+msgid "Aidpcoin Mined:"
+msgstr "Aidpcoin Minado:"
 
 #: public/views/pools.html
-msgid "Ravencoin Pools"
-msgstr "Ravencoin Pools"
+msgid "Aidpcoin Pools"
+msgstr "Aidpcoin Pools"
 
 #: public/views/statistics.html
-msgid "Ravencoin Pools Stats"
-msgstr "Estadísticas de Ravencoin Pools"
+msgid "Aidpcoin Pools Stats"
+msgstr "Estadísticas de Aidpcoin Pools"
 
 #: public/views/statistics.html
-msgid "Ravencoin Statistics for the last 24 hours"
-msgstr "Estadísticas de Ravencoin durante las últimas 24 horas"
+msgid "Aidpcoin Statistics for the last 24 hours"
+msgstr "Estadísticas de Aidpcoin durante las últimas 24 horas"
 
 #: public/views/index.html
-msgid "Ravencore"
-msgstr "Ravencore"
+msgid "Aidpcore"
+msgstr "Aidpcore"
 
 #: public/views/transaction_sendraw.html
 msgid "Raw transaction data"
@@ -634,8 +634,8 @@ msgid "TESTNET"
 msgstr "TESTNET"
 
 #: public/views/charts.html
-msgid "The current supply of Ravencoin on the network."
-msgstr "El suministro actual de Ravencoin en la red."
+msgid "The current supply of Aidpcoin on the network."
+msgstr "El suministro actual de Aidpcoin en la red."
 
 #: public/views/dummy-translations.html
 msgid "The daily average of fees paid to miners per transaction."
@@ -669,18 +669,18 @@ msgstr "No hay transacciones para esta dirección."
 #: public/views/transaction_sendraw.html
 msgid ""
 "This form can be used to broadcast a raw transaction in hex format over the "
-"Ravencoin network."
+"Aidpcoin network."
 msgstr ""
 "Este formulario se puede utilizar para emitir una transacción RAW en format "
-"hexadecimal a través de la red Ravencoin."
+"hexadecimal a través de la red Aidpcoin."
 
 #: public/views/messages_verify.html
 msgid ""
 "This form can be used to verify that a message comes from a specific "
-"Ravencoin address."
+"Aidpcoin address."
 msgstr ""
 "Este formulario se puede utilizar para comprobar que un mensaje proviene de "
-"una dirección Ravencoin específica."
+"una dirección Aidpcoin específica."
 
 #: public/views/statistics.html
 msgid "Time Between Blocks:"
@@ -832,16 +832,16 @@ msgstr "Esperando transacciones..."
 
 #~ msgid ""
 #~ "<strong>insight</strong>  is an <a href=\"http://live.insight.is/\" "
-#~ "target=\"_blank\">open-source Ravencoin blockchain explorer</a> with "
+#~ "target=\"_blank\">open-source Aidpcoin blockchain explorer</a> with "
 #~ "complete REST and websocket APIs that can be used for writing web wallets "
 #~ "and other apps  that need more advanced blockchain queries than provided "
-#~ "by ravend RPC.  Check out the <a href=\"https://github.com/underdarkskies/"
+#~ "by aidpd RPC.  Check out the <a href=\"https://github.com/underdarkskies/"
 #~ "insight-ui\" target=\"_blank\">source code</a>."
 #~ msgstr ""
 #~ "<strong>insight</strong>  es un <a href=\"http://live.insight.is/\" "
-#~ "target=\"_blank\">explorador de bloques de Ravencoin open-source</a> con "
+#~ "target=\"_blank\">explorador de bloques de Aidpcoin open-source</a> con "
 #~ "un completo conjunto de REST y APIs de websockets que pueden ser usadas "
-#~ "para escribir monederos de Ravencoins y otras aplicaciones que requieran "
+#~ "para escribir monederos de Aidpcoins y otras aplicaciones que requieran "
 #~ "consultar un explorador de bloques.  Obtén el código en <a href=\"http://"
 #~ "github.com/underdarkskies/insight\" target=\"_blank\">el repositorio "
 #~ "abierto de Github</a>."
